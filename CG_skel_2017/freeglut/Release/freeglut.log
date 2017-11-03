@@ -1,0 +1,60 @@
+﻿  freeglut_callbacks.c
+  freeglut_cursor.c
+  freeglut_display.c
+  freeglut_ext.c
+  freeglut_font.c
+  freeglut_font_data.c
+  freeglut_gamemode.c
+src\freeglut_gamemode.c(393): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(2261): note: see declaration of 'sscanf'
+src\freeglut_gamemode.c(395): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(2261): note: see declaration of 'sscanf'
+src\freeglut_gamemode.c(396): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(2261): note: see declaration of 'sscanf'
+src\freeglut_gamemode.c(397): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(2261): note: see declaration of 'sscanf'
+src\freeglut_gamemode.c(398): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(2261): note: see declaration of 'sscanf'
+src\freeglut_gamemode.c(399): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(2261): note: see declaration of 'sscanf'
+src\freeglut_gamemode.c(400): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(2261): note: see declaration of 'sscanf'
+  freeglut_geometry.c
+  freeglut_glutfont_definitions.c
+  freeglut_init.c
+src\freeglut_init.c(717): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdlib.h(1199): note: see declaration of 'getenv'
+src\freeglut_init.c(722): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(2261): note: see declaration of 'sscanf'
+src\freeglut_init.c(741): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdlib.h(1199): note: see declaration of 'getenv'
+src\freeglut_init.c(685): warning C4101: 'sLen': unreferenced local variable
+  freeglut_input_devices.c
+src\freeglut_input_devices.c(152): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdlib.h(1199): note: see declaration of 'getenv'
+  freeglut_joystick.c
+src\freeglut_joystick.c(1019): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(1959): note: see declaration of '_snprintf'
+src\freeglut_joystick.c(1031): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(1959): note: see declaration of '_snprintf'
+src\freeglut_joystick.c(1039): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(1959): note: see declaration of '_snprintf'
+src\freeglut_joystick.c(1273): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\string.h(343): note: see declaration of 'strncpy'
+  freeglut_main.c
+  freeglut_menu.c
+  freeglut_misc.c
+  freeglut_overlay.c
+  freeglut_spaceball.c
+  freeglut_state.c
+  freeglut_stroke_mono_roman.c
+  freeglut_stroke_roman.c
+  Compiling...
+  freeglut_structure.c
+  freeglut_teapot.c
+  freeglut_videoresize.c
+  freeglut_window.c
+  fgSetupPixelFormat(): there is still some work to do here!
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1371,5): warning MSB8012: TargetPath(C:\Users\samiGIP\Documents\CG_skel_2017\CG_skel_2017\Release\freeglut.lib) does not match the Library's OutputFile property value (C:\Users\samiGIP\Documents\CG_skel_2017\CG_skel_2017\freeglut\lib\freeglut_static.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1373,5): warning MSB8012: TargetName(freeglut) does not match the Library's OutputFile property value (freeglut_static). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+  freeglut.vcxproj -> C:\Users\samiGIP\Documents\CG_skel_2017\CG_skel_2017\Release\freeglut.lib

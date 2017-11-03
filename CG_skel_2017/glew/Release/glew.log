@@ -1,0 +1,11 @@
+﻿  glew.c
+  glewinfo.c
+src\glewinfo.c(9133): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(207): note: see declaration of 'fopen'
+  visualinfo.c
+src\visualinfo.c(149): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.16299.0\ucrt\stdio.h(207): note: see declaration of 'fopen'
+src\visualinfo.c(234): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1371,5): warning MSB8012: TargetPath(C:\Users\samiGIP\Documents\CG_skel_2017\CG_skel_2017\Release\glew.lib) does not match the Library's OutputFile property value (C:\Users\samiGIP\Documents\CG_skel_2017\CG_skel_2017\glew\lib\glew.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+visualinfo.obj : warning LNK4006: _main already defined in visualinfo.obj; second definition ignored
+  glew.vcxproj -> C:\Users\samiGIP\Documents\CG_skel_2017\CG_skel_2017\Release\glew.lib

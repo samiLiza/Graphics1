@@ -1,0 +1,10 @@
+﻿  MeshModel.cpp
+c:\users\samigip\documents\cg_skel_2017\cg_skel_2017\cg_skel_w_mfc\vec.h(128): warning C4244: 'return': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\samigip\documents\cg_skel_2017\cg_skel_2017\cg_skel_w_mfc\mat.h(542): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  5 of 1043 functions ( 0.5%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    49 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  CG_skel_w_MFC.vcxproj -> C:\Users\samiGIP\Documents\CG_skel_2017\CG_skel_2017\Release\CG_skel_w_MFC.exe
