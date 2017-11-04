@@ -39,8 +39,8 @@ void Renderer::SetDemoBuffer()
 		m_outBuffer[INDEX(m_width,256,i,0)]=1;	m_outBuffer[INDEX(m_width,256,i,1)]=0;	m_outBuffer[INDEX(m_width,256,i,2)]=0;
 
 	}
-	DrawLinePosSlope(511, 511, 0, 0);
-	DrawLinePosSlope(0, 511, 511, 0);
+	DrawLine(511, 511, 0, 0);
+	DrawLine(0, 511, 511, 0);
 	//DrawLinePosSlope(300, 200, 0, 0);
 	//DrawLinePosSlope(0, 400, 280, 280);
 	//horizontal line
@@ -132,7 +132,7 @@ void Renderer::SwapBuffers()
 	a = glGetError();
 }
 
-void Renderer::DrawLinePosSlope(int x0, int y0, int x1, int y1 /* Pixels to fill ?*/)
+void Renderer::DrawLine(int x0, int y0, int x1, int y1 /* Pixels to fill ?*/)
 {
 	// assert: y0 > y1
 	if (x0 > x1)
