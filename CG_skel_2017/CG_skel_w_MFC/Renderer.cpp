@@ -39,7 +39,10 @@ void Renderer::SetDemoBuffer()
 		m_outBuffer[INDEX(m_width,256,i,0)]=1;	m_outBuffer[INDEX(m_width,256,i,1)]=0;	m_outBuffer[INDEX(m_width,256,i,2)]=0;
 
 	}
-	DrawLinePosSlope(0, 0, 511, 511);
+	DrawLinePosSlope(511, 511, 0, 0);
+	DrawLinePosSlope(0, 511, 511, 0);
+	//DrawLinePosSlope(300, 200, 0, 0);
+	//DrawLinePosSlope(0, 400, 280, 280);
 	//horizontal line
 	for(int i=0; i<m_width; i++)
 	{
@@ -144,6 +147,7 @@ void Renderer::DrawLinePosSlope(int x0, int y0, int x1, int y1 /* Pixels to fill
 	int delta;
 	int threshold;
 	int threshInc;
+	int yInc = ( y0 > y1 ) ? -1 : 1;
 	if (deltaY > deltaX)
 	{
 		std::swap(x0, y0);
@@ -176,7 +180,7 @@ void Renderer::DrawLinePosSlope(int x0, int y0, int x1, int y1 /* Pixels to fill
 		realY += delta;
 		if (realY >= threshold)
 		{
-			currY++;
+			currY+=yInc;
 			threshold += threshInc;
 		}
 	}
