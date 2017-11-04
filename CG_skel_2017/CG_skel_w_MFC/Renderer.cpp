@@ -39,6 +39,7 @@ void Renderer::SetDemoBuffer()
 		m_outBuffer[INDEX(m_width,256,i,0)]=1;	m_outBuffer[INDEX(m_width,256,i,1)]=0;	m_outBuffer[INDEX(m_width,256,i,2)]=0;
 
 	}
+	DrawLinePosSlope(0, 0, 511, 511);
 	//horizontal line
 	for(int i=0; i<m_width; i++)
 	{
@@ -162,7 +163,16 @@ void Renderer::DrawLinePosSlope(int x0, int y0, int x1, int y1 /* Pixels to fill
 	int currY = y0;
 	for (int currX = x0; currX <= x1; currX++)
 	{
-		// do smth with pixel at (currX, currY) 
+		// do smth with pixel
+		if (mirrored) 
+		{
+			m_outBuffer[INDEX(m_width, currY, currX, 0)] = 1;	m_outBuffer[INDEX(m_width, currY, currX, 1)] = 1;	m_outBuffer[INDEX(m_width, currY, currX, 2)] = 0;
+		} 
+		else 
+		{
+			m_outBuffer[INDEX(m_width, currX, currY, 0)] = 1;	m_outBuffer[INDEX(m_width, currX, currY, 1)] = 1;	m_outBuffer[INDEX(m_width, currX, currY, 2)] = 0;
+		}
+		
 		realY += delta;
 		if (realY >= threshold)
 		{

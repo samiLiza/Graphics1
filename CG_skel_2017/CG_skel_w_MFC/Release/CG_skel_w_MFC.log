@@ -1,19 +1,10 @@
-﻿  CG_skel_w_MFC.cpp
-c:\users\samigip\documents\cg_skel_2017\cg_skel_2017\cg_skel_w_mfc\vec.h(128): warning C4244: 'return': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\samigip\documents\cg_skel_2017\cg_skel_2017\cg_skel_w_mfc\mat.h(542): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
-  MeshModel.cpp
-c:\users\samigip\documents\cg_skel_2017\cg_skel_2017\cg_skel_w_mfc\vec.h(128): warning C4244: 'return': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\samigip\documents\cg_skel_2017\cg_skel_2017\cg_skel_w_mfc\mat.h(542): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
-  Renderer.cpp
-c:\users\samigip\documents\cg_skel_2017\cg_skel_2017\cg_skel_w_mfc\vec.h(128): warning C4244: 'return': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\samigip\documents\cg_skel_2017\cg_skel_2017\cg_skel_w_mfc\mat.h(542): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
-  Scene.cpp
+﻿  Renderer.cpp
 c:\users\samigip\documents\cg_skel_2017\cg_skel_2017\cg_skel_w_mfc\vec.h(128): warning C4244: 'return': conversion from 'double' to 'GLfloat', possible loss of data
 c:\users\samigip\documents\cg_skel_2017\cg_skel_2017\cg_skel_w_mfc\mat.h(542): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
 LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
   Generating code
-  0 of 1048 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+  4 of 1052 functions ( 0.4%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
+    1 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
   CG_skel_w_MFC.vcxproj -> C:\Users\samiGIP\Documents\CG_skel_2017\CG_skel_2017\Release\CG_skel_w_MFC.exe
