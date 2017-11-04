@@ -36,4 +36,5 @@ public:
 	void ClearColorBuffer();
 	void ClearDepthBuffer();
 	void SetDemoBuffer();
+	void DrawLinePosSlope(int x0, int y0, int x1, int y1 /* Pixels to fill ?*/);
 };

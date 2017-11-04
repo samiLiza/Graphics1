@@ -127,3 +127,48 @@ void Renderer::SwapBuffers()
 	glutSwapBuffers();
 	a = glGetError();
 }
+
+void Renderer::DrawLinePosSlope(int x0, int y0, int x1, int y1 /* Pixels to fill ?*/)
+{
+	// assert: y0 > y1
+	if (x0 > x1)
+	{
+		std::swap(x0, x1);
+		std::swap(y0, y1);
+	}
+
+	int deltaX = std::abs(x1 - x0); // What if x0 > x1??
+	int deltaY = std::abs(y1 - y0);// What if y0 > y1??
+	bool mirrored = false;
+	int delta;
+	int threshold;
+	int threshInc;
+	if (deltaY > deltaX)
+	{
+		std::swap(x0, y0);
+		std::swap(x1, y1);
+		mirrored = true;
+		delta = 2 * deltaX; // check again
+		threshold = deltaY;
+		threshInc = 2 * deltaY;
+	}
+	else {
+		delta = 2 * deltaY; // check again
+		threshold = deltaX;
+		threshInc = 2 * deltaX;
+	}
+
+	int realY = 0;
+	int currY = y0;
+	for (int currX = x0; currX <= x1; currX++)
+	{
+		// do smth with pixel at (currX, currY) 
+		realY += delta;
+		if (realY >= threshold)
+		{
+			currY++;
+			threshold += threshInc;
+		}
+	}
+
+}
